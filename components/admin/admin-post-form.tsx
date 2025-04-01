@@ -97,7 +97,7 @@ export default function AdminBlogForm() {
       }
 
       const { error: supabaseError } = await supabase
-        .from("blog")
+        .from("blogs")
         .insert([
           {
             title,

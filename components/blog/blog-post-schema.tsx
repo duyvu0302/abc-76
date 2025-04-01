@@ -27,12 +27,12 @@ export default function BlogPostSchema({
       name: "Xe Ghép Quảng Ngãi - Đà Nẵng",
       logo: {
         "@type": "ImageObject",
-        url: "https://keghepxequangngai.com/home3.webp",
+        url: "https://xeghep76.com/home3.webp",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://keghepxequangngai.com/blog/${slug}`,
+      "@id": `https://xeghep76.com/blog/${slug}`,
     },
   };
 

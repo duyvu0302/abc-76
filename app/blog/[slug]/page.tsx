@@ -18,7 +18,7 @@ export async function generateMetadata({
   const { slug } = await params;
 
   const { data: post, error } = await supabaseServer
-    .from("blog")
+    .from("blogs")
     .select("*")
     .eq("slug", slug)
     .single();
@@ -33,7 +33,7 @@ export async function generateMetadata({
     openGraph: {
       title: post.title,
       description: post.subtitle,
-      url: `https://keghepxequangngai.com/blog/${post.slug}`,
+      url: `https://xeghep76.com/blog/${post.slug}`,
       siteName: "Xe Ghép Quảng Ngãi - Đà Nẵng",
       locale: "vi_VN",
       type: "article",
@@ -55,7 +55,7 @@ export async function generateMetadata({
 export async function generateStaticParams({ params }: BlogPostPageProps) {
   const { slug } = await params;
   const { data, error } = await supabaseServer
-    .from("blog")
+    .from("blogs")
     .select("slug")
     .eq("slug", slug);
 
@@ -67,7 +67,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params;
 
   const { data: post, error } = await supabaseServer
-    .from("blog")
+    .from("blogs")
     .select("*")
     .eq("slug", slug)
     .single();
@@ -75,7 +75,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   if (error) throw new Error("error");
 
   const { data: recentPosts, error: additionalError } = await supabaseServer
-    .from("blog")
+    .from("blogs")
     .select("*")
     .neq("slug", slug) // Lọc bỏ bài viết có slug đã lấy
     .order("position", { ascending: false }) // Sắp xếp theo position (giảm dần)

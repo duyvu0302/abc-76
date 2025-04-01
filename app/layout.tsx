@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: " Xe Ghép Quảng Ngãi - Đà Nẵng",
     description:
       "Thông tin hữu ích về dịch vụ xe ghép Quảng Ngãi - Đà Nẵng, kinh nghiệm di chuyển, địa điểm du lịch và nhiều hơn nữa.",
-    url: "https://keghepxequangngai.com/",
+    url: "https://xeghep76.com/",
     siteName: "Xe Ghép Quảng Ngãi - Đà Nẵng",
     locale: "vi_VN",
     type: "website",
