@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Blog | Xe Ghép Quảng Ngãi - Đà Nẵng",
     description:
       "Thông tin hữu ích về dịch vụ xe ghép Quảng Ngãi - Đà Nẵng, kinh nghiệm di chuyển, địa điểm du lịch và nhiều hơn nữa.",
-    url: "https://keghepxequangngai.com/blog",
+    url: "https://xeghep76.com/blog",
     siteName: "Xe Ghép Quảng Ngãi - Đà Nẵng",
     locale: "vi_VN",
     type: "website",
@@ -43,7 +43,7 @@ export default async function BlogPage({
   const pageSize = 6;
 
   const { data, error, count } = await supabaseServer
-    .from("blog")
+    .from("blogs")
     .select("id, title, created_at, subtitle, img_url, slug, position", {
       count: "exact",
     })

@@ -7,18 +7,18 @@ export default function BlogSchema() {
     headline: "Blog Xe Ghép Quảng Ngãi - Đà Nẵng",
     description:
       "Thông tin hữu ích về dịch vụ xe ghép Quảng Ngãi - Đà Nẵng, kinh nghiệm di chuyển, địa điểm du lịch và nhiều hơn nữa.",
-    url: "https://keghepxequangngai.com/blog",
+    url: "https://xeghep76.com/blog",
     publisher: {
       "@type": "Organization",
       name: "Xe Ghép Quảng Ngãi - Đà Nẵng",
       logo: {
         "@type": "ImageObject",
-        url: "https://keghepxequangngai.com/logo.png",
+        url: "https://xeghep76.com/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://keghepxequangngai.com/blog",
+      "@id": "https://xeghep76.com/blog",
     },
   };
 

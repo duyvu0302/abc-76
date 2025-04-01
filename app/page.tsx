@@ -16,7 +16,7 @@ export const revalidate = 60;
 
 export default async function Home() {
   const { data, error } = await supabaseServer
-    .from("blog")
+    .from("blogs")
     .select("*")
     .order("position", { ascending: false })
     .limit(3);
