@@ -33,7 +33,7 @@ export default function RootLayout({
       <head>
         <meta
           name="google-site-verification"
-          content="0BYn6vtN-6WQR6yId7gxyY8AFtVe7jUuj2sb7fkV9cs"
+          content="rwi_5UfZ3NEfjLcGVnB0uCjh30shyJY0h3X_xvvRSeg"
         />
       </head>
       <body className={inter.className}>{children}</body>
