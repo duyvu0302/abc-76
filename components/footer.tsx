@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-4">
           <a href="tel:0343445345" className="flex items-center">
             <Phone size={18} className="mr-2 text-yellow-400" />
-            <span>0963.258.123</span>
+            <span>0898.999.981</span>
           </a>
 
           <div className="hidden md:block">|</div>

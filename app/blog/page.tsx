@@ -281,7 +281,7 @@ export default async function BlogPage({
             href="tel:0343445345"
             className="inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-lg transition duration-200"
           >
-            Đặt xe ngay: 0963.258.123
+            Đặt xe ngay: 0898.999.981
           </a>
         </div>
       </section>

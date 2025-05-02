@@ -39,7 +39,7 @@ export default async function Home() {
                 className="flex items-center text-yellow-400"
               >
                 <span className="mr-2">📞</span>
-                <span className="font-bold">0963.258.123</span>
+                <span className="font-bold">0898.999.981</span>
               </a>
             </div>
           </div>
@@ -87,8 +87,8 @@ export default async function Home() {
 
               <div className="text-center mb-6 bg-yellow-400 md:w-64 rounded flex flex-col justify-center items-center p-4 mx-auto text-black font-bold">
                 <p className="text-2xl">ĐẶT XE NGAY</p>
-                <Link className="text-2xl" href={"tel:0963.258.123"}>
-                  0963.258.123
+                <Link className="text-2xl" href={"tel:0898.999.981"}>
+                  0898.999.981
                 </Link>
                 <p className="mt-2 text-sm">(Có Zalo)</p>
                 <Image
